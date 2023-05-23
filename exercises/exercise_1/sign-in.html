@@ -1,40 +1,28 @@
-<!-- sign-in.html -->
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
     <div class="container">
-      <img src="logo.png" alt="Logo" class="logo" />
-      <h2>Sign In</h2>
-      <form action="sign-in.html" method="POST">
-        <div class="form-group">
-          <label for="username">Username</label>
-          <input
-            type="text"
-            id="username"
-            name="username"
-            placeholder="Enter your username"
-            required
-          />
+        <div class="brand-logo">
         </div>
-
-        <div class="form-group">
-          <label for="password">Password</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            placeholder="Enter your password"
-            required
-          />
+        <div class="brand-title">Welcom to Rinor</div>
+        <div class="inputs">
+          <form>
+            <label>EMAIL</label>
+            <input type="email" placeholder=".....@gmail.com" required>
+            <label>PASSWORD</label>
+            <input type="password" placeholder="Min 6 charaters long" required>
+           <button type="submit"><a href="sign-up.html">sign up</a></button>
+            
+            </form>
         </div>
-
-        <button type="submit" class="btn">Sign In</button>
-      </form>
-      <p>Don't have an account? <a href="sign-up.html">Sign Up</a></p>
+        
     </div>
-  </body>
+</body>
 </html>

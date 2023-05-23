@@ -1,40 +1,35 @@
-<!-- sign-up.html -->
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
     <div class="container">
-      <img src="logo.png" alt="Logo" class="logo" />
-      <h2>Sign Up</h2>
-      <form action="sign-up.html" method="POST">
-        <div class="form-group">
-          <label for="username">Username</label>
-          <input
-            type="text"
-            id="username"
-            name="username"
-            placeholder="Enter your username"
-            required
-          />
+        <!-- <div class="brand-logo">
         </div>
-
-        <div class="form-group">
-          <label for="password">Password</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            placeholder="Enter your password"
-            required
-          />
+        <div class="brand-title">Welcom to Rinor</div> -->
+        <div class="inputs"  style="margin-top: -10px;">
+                <form class="form">
+                    <label>UserName</label>
+                    <input type="text" placeholder="Username" required>
+                    <label>Email</label>
+                    <input type="email" placeholder="Email" required>
+                    <label>Password</label>
+                    <input type="password" placeholder="Password" required>
+                    <label>Confirm Password</label>
+                    <input type="password" placeholder="Confirm Password" required>
+                    <button type="submit"><a href="sign-in.html">Sign Up</a></button>
+                    <p class="message">Already registered? </p>
+                </form>
         </div>
-
-        <button type="submit" class="btn">Sign Up</button>
-      </form>
-      <p>Already have an account? <a href="sign-in.html">Sign In</a></p>
+       
     </div>
-  </body>
+</body>
+
 </html>
