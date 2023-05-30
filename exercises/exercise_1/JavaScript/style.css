@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-top: 100px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container input[type="text"],
+.container input[type="password"],
+.container input[type="email"] {
+     width: 100%;
+    margin-bottom: 15px;
+    border: none;
+   background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1;
+     /* inset -6px -6px 6px white; */
+} 
+
+.container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #45a049;
+}
+
+.container p.message {
+    text-align: center;
+}
+
+.container p.message a {
+    color: #4CAF50;
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Pseudo-classes for enhanced interactivity */
+.form input:focus {
+    border-color: #ff0000;
+}
+
+.form button:hover,
+.form button:hover {
+    background-color: #ff0000;
+    /* Change background color on button hover */
+}
+
+.form button:active,
+.form button:active {
+    background-color: #17fc17;
+    /* Change background color on button click/press */
+}
